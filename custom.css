@@ -205,10 +205,6 @@ h3#good-morning-life-one-woman-waking-up-to-happiness-one-moment-at-a-time {
 
 /* BLOG PAGE */
 
-.blog .site-content {
-  margin-top: 1rem;
-}
-
-.blog .site-main {
-	margin-top: 2rem;
+.blog h2.entry-title {
+  margin-top: 2rem;
 }

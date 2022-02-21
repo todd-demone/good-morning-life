@@ -98,6 +98,12 @@
 	}
 }
 
+/* REMOVE HORIZONTAL SCROLL BAR WHERE WIDTH EXCEEDS 1320PX */
+@media (min-width: 1321px) {
+	body {
+		overflow-x: hidden;
+	}
+}
 
 /* GET RID OF BLACK BORDER */ 
 

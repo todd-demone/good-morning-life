@@ -1,6 +1,11 @@
 /* GOOD MORNING, LIFE!
  * Custom CSS */
 
+ /* GENERAL */
+
+ body {
+	background-color: #fff;
+}
 
 /* NAVBAR */
 
@@ -64,10 +69,6 @@
 
 /* EXTEND NAVBAR COLOUR OUTSIDE CONTAINER, TO EDGE OF SCREEN */
 
-body {
-	background-color: #fff;
-}
-
 .site-header:before {
   content: "";
   position: absolute;
@@ -90,16 +91,13 @@ body {
   height: 173px;
 }
 
+
+/* GET RID OF BLACK BORDER */ 
+
 @media screen and (min-width: 44.375em) {
-  body:not(.custom-background-image):before, body:not(.custom-background-image):after {
-    background: inherit;
-    content: "";
-    display: block;
+  body:not(.custom-background-image):before,     
+	body:not(.custom-background-image):after {
     height: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
   }
 }
 

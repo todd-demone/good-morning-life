@@ -69,40 +69,33 @@
 
 /* EXTEND NAVBAR COLOUR OUTSIDE CONTAINER, TO EDGE OF SCREEN */
 
-.site-header:before {
-  content: "";
-  position: absolute;
-  left: -100%;
-  bottom: 0;
-  top: 0;
-  right: 100%;
-  background-color: #a3ddeb;
-  height: 174px;
+.site-inner {
+	max-width: none;
 }
 
-.site-header:after {
-  content: "";
-  position: absolute;
-  left: 100%;
-  bottom: 0;
-  top: 0;
-  right: -100%;
-  background-color: #a3ddeb;
-  height: 174px;
+.site-header {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-@media (max-width: 44.375em) {
-	.site-header:before,
-	.site-header:after {
-		height: 125px;
-	}
+.site-header-main {
+	max-width: 1320px;
+	padding-left: 4.5455%;
+	padding-right: 4.5455%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* REMOVE HORIZONTAL SCROLL BAR WHERE WIDTH EXCEEDS 1320PX */
-@media (min-width: 1321px) {
-	body {
-		overflow-x: hidden;
-	}
+.site-content {
+	max-width: 1320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.site-footer {
+	max-width: 1320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* GET RID OF BLACK BORDER */ 

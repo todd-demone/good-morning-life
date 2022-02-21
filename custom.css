@@ -1,0 +1,205 @@
+/* GOOD MORNING, LIFE!
+ * Custom CSS */
+
+
+/* NAVBAR */
+
+.site-header-main .site-branding .site-title > a {
+	color: #5a5a5a;
+	transition: 0.3s ease;
+}
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #007acc;
+}
+
+.site-header {
+	background-color: #a3ddeb;
+	padding-top: 1.9375em;
+	padding-bottom: 1.9375em;
+}
+
+.site-header-main .site-branding .site-description {
+	color: #5a5a5a;
+}
+
+.main-navigation li {
+	border-top: 1px solid #5a5a5a;
+    position: relative;
+}
+
+.main-navigation .primary-menu {
+    border-bottom: 0;
+}
+
+#menu-main .menu-item a {
+	color: #5a5a5a;
+	transition: 0.3s ease;
+}
+
+.main-navigation a:hover, .main-navigation a:focus {
+    color: #007acc !important;
+}
+
+#menu-main ul.sub-menu li.menu-item a {
+	color: #222;
+}
+
+.site-header-main #menu-toggle { 
+  color: #5a5a5a;
+	border-color: #5a5a5a;
+	transition: 0.3s ease;
+}
+
+#menu-toggle:hover, #menu-toggle:focus {
+	color: #5a5a5a;
+	border-color: #5a5a5a;
+}
+
+.menu-toggle.toggled-on, .menu-toggle.toggled-on:hover, .menu-toggle.toggled-on:focus {
+    background-color: #5a5a5a;
+    border-color:#5a5a5a;
+    color: #fff !important;
+}
+
+/* EXTEND NAVBAR OUTSIDE CONTAINER, TO EDGE OF SCREEN */
+
+body {
+	background-color: #fff;
+}
+
+.site-header:before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  bottom: 0;
+  top: 0;
+  right: 100%;
+  background-color: #a3ddeb;
+  height: 173px;
+}
+
+.site-header:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  top: 0;
+  right: -100%;
+  background-color: #a3ddeb;
+  height: 173px;
+}
+
+@media screen and (min-width: 44.375em) {
+  body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+    background: inherit;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+}
+
+@media screen and (min-width: 44.375em) {
+  .site {
+    margin: 0;
+  }
+}
+
+
+/* CONTENT HEADER */
+
+.single-post .header-image {
+	display: none;
+}
+
+.heading-line-height {
+	line-height: 1.2;
+}
+
+.site-main .entry-header h1.entry-title {
+	margin-top: 2rem;
+}
+
+.entry-content > p:first-child {
+	margin-top: 2rem;
+} 
+
+
+/* FRONT PAGE */
+
+.page-id-1382 article.post-1382 h1.entry-title {
+	display: none;
+}
+
+.front-cover-links > a:link,
+.front-cover-links > a:visited,
+.front-cover-links > a:hover,
+.front-cover-links > a:active {
+	color: #fff;	
+}
+
+.front-cover-links > a {
+  box-shadow: none;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.front-cover-links > a:hover,
+.front-cover-links > a:active {
+	box-shadow: 0 1px 0 0 currentcolor;
+}
+
+.page-id-1382 .wp-block-cover {
+	transition: 0.6s ease !important;
+}
+
+.page-id-1382 .wp-block-cover:hover {
+	opacity: .9 !important;
+}
+
+h3#good-morning-life-one-woman-waking-up-to-happiness-one-moment-at-a-time {
+	margin-bottom: .5rem !important;
+}
+
+@media (min-width: 600px) {
+	
+	article.post-1382 .wp-block-spacer {
+		height: 77px !important;
+	}
+
+}
+
+@media (max-width: 599px) {
+
+  .page-id-1382 .post-1382 > .entry-content > p   {
+		font-size: 24px !important;
+  }	
+
+}
+
+
+/* SIDEBAR */
+aside > section.widget:first-child {
+	margin-top: 2rem;
+}
+
+
+/* SOCIAL NAVIGATION */
+
+.menu-item-230 > a {
+  color: #3f729b;
+}
+.menu-item-231 > a {
+  color: #2867B2;
+}
+.menu-item-232 > a {
+  color: #43609C;
+}
+
+.social-navigation a:before {
+  font-size: 28px;
+}

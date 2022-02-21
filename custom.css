@@ -127,6 +127,29 @@
 } 
 
 
+/* SIDEBAR */
+aside > section.widget:first-child {
+	margin-top: 2rem;
+}
+
+
+/* SOCIAL NAVIGATION */
+
+.menu-item-230 > a {
+  color: #3f729b;
+}
+.menu-item-231 > a {
+  color: #2867B2;
+}
+.menu-item-232 > a {
+  color: #43609C;
+}
+
+.social-navigation a:before {
+  font-size: 28px;
+}
+
+
 /* FRONT PAGE */
 
 .page-id-1382 article.post-1382 h1.entry-title {
@@ -180,24 +203,12 @@ h3#good-morning-life-one-woman-waking-up-to-happiness-one-moment-at-a-time {
 }
 
 
-/* SIDEBAR */
-aside > section.widget:first-child {
+/* BLOG PAGE */
+
+.blog .site-content {
+  margin-top: 1rem;
+}
+
+.blog .site-main {
 	margin-top: 2rem;
-}
-
-
-/* SOCIAL NAVIGATION */
-
-.menu-item-230 > a {
-  color: #3f729b;
-}
-.menu-item-231 > a {
-  color: #2867B2;
-}
-.menu-item-232 > a {
-  color: #43609C;
-}
-
-.social-navigation a:before {
-  font-size: 28px;
 }

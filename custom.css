@@ -91,6 +91,13 @@
   height: 174px;
 }
 
+@media (max-width: 44.375em) {
+	.site-header:before,
+	.site-header:after {
+		height: 125px;
+	}
+}
+
 
 /* GET RID OF BLACK BORDER */ 
 
